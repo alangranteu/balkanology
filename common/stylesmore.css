@@ -1,0 +1,88 @@
+/* Stylesheet for Balkanology.com - Alan Grant 2006 */
+/* Extra styles for specific pages */
+ul.linklist h4, ol.faqlist h4, table.gentable h4 { 
+  font-family: arial, sans-serif; 
+	margin-bottom: 0; 
+}
+ul.linklist h5 {
+   font-family: arial, sans-serif; 
+	 font-size: 100%;
+	 margin-right: 2em;
+	 display: inline;
+}
+ul.linklist p, ol.faqlist p, ol.faqlist ul { margin-top: 0.5em; margin-bottom: 0.5em }
+ul.linklist li { margin-top: 0.5em;}
+ol.faqlist h4 { margin-top: 1em; }
+
+table.gentable td {
+  vertical-align: middle; 
+  padding: 0.5em; 
+  border: 1px solid #BBBBBB;
+}
+table.gentable td.more { 
+  text-align: center;
+  font-size: 0.8em;
+  background-color: #DDDDDD; 
+  width: 7.5em;
+  border: 1px dotted #660000;
+  font-weight: bold;
+}
+table.gentable td.cover { 
+  background-color: #DDDDDD; 
+  border: 1px dotted #660000;
+}
+table.gentable td.more p { padding : 0 }
+
+table.mailform td {vertical-align: top }
+
+table.whatsnew { border-collapse: collapse; }
+table.whatsnew td {
+  border: 1px solid #BBBBBB;
+	padding: 0.5em;
+	vertical-align: top;
+}
+table.whatsnew col.datecol { width: 10em; }
+
+body#sitemapbody {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+div#sitemap {
+  margin: 2em;
+  line-height: 140%;  
+}
+
+div.sitemappanel {
+  border: 1px solid #BBBBBB;
+  float: left;
+  padding: 0.3em;
+  margin: 1em 1em 0.3em 0em;
+  width: 16em;
+}
+div.sitemappanel h4 {
+  font-family: arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+}
+div.sitemappanel ul { 
+  margin-top: 0.3em;
+  margin-left: 0;
+  padding-left: 1em;
+  list-style-type: none; 
+}
+div.sitemappanel ul ul {
+  padding-left: 2em; 
+  list-style-type: circle; 
+}
+a.mapref:link, a.mapref:visited, a.mapref:hover, a.mapref:active { 
+  color: #006600; 
+	background-color: transparent;
+  font-weight: bold;
+}
+
+table.dark { background-color: #DDDDDD; }
+table.alphabet { border: 1px solid #BBBBBB; text-align: center; font-size: 15px;  margin-left: auto; margin-right: auto; }
+table.alphabet th { padding-left: 0.4em; padding-right: 0.4em; }
+table.transport { font-size: 90%; border: 2px solid #999999; text-align: center; margin-left: auto; margin-right: auto; }
+table.transport td, table.transport th { padding-left: 0.4em; padding-right: 0.4em; border: 1px solid #999999;}
+
